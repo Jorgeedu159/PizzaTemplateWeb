@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+:root
+{
+
+    --clr1: orange;
+    --clr2: white;
+    --clr3: black;
+    --clr4: #f42f1d;
+    --clr5: limegreen;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+html
+{
+    font-size: 65%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+
+}
+
+html::-webkit-scrollbar
+{
+    width: 1rem;
+    
+}
