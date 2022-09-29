@@ -97,8 +97,9 @@ section h4
     text-align: center;
     align-items: center;
     letter-spacing: .2rem;
-    clip-path: polygon(0% 15%, 25% 28%, 15% 0%, 85% 0%, 70% 28%, 100% 15%, 100% 85%, 67% 70%, 85% 100%, 15% 100%, 28% 66%, 0% 85%);
+    border-radius: 40%;
     background: var(--clr4);
+    clip-path: polygon(0% 15%, 25% 28%, 15% 0%, 85% 0%, 70% 28%, 100% 15%, 100% 85%, 67% 70%, 85% 100%, 15% 100%, 28% 66%, 0% 85%);
     
 
 }
@@ -283,6 +284,8 @@ section p
 .about-sec {
     display: flex;
     grid-template-columns: 1.2fr 1.2fr;
+    padding: 2rem;
+    margin-bottom: auto;
 }
 
 h4
@@ -305,6 +308,7 @@ h4
     color: var(--clr4);
     padding: 1rem;
     text-align: center;
+    border-radius: 15px;
 }
 
 .about-content p {
@@ -313,6 +317,8 @@ h4
     font-size: 1.4rem;
     font-weight: 600;
     text-align: center;
+    padding: 2rem;
+   
 }
 
 .about-inner h5 {
@@ -320,6 +326,7 @@ h4
     font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 900;
+    text-align: center;
 }
 
 .about-inner h5:hover {
@@ -334,6 +341,123 @@ h4
 
 .about-content .btn {
     border: .1rem solid var(--clr4);
+}
+/********************serviços prestados *************************/
+.service-content
+{
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-gap: 1rem;
+
+}
+
+.inner-box
+{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 1rem solid var(--clr4);
+    background: white;
+    border-radius: 12px;
+    
+}
+
+.inner-box:hover
+{
+    background: var(--clr4);
+    transition: .5 ease all;
+
+}
+
+.inner-box img
+{
+    width: 15rem;
+    height: 15rem;   
+    
+}
+
+.inner-box h2
+{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+
+
+
+}
+
+.inner-box p
+{
+    font-size: 1.3rem;
+    color: var(--clr3);
+
+}
+
+/**********************************Cardapio*********************/
+
+.menu-content 
+{
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-gap: 2rem;
+    flex-wrap: nowrap;
+   
+}
+
+.in-box {
+    padding: 3rem 4rem;
+    text-align: center;
+    border: .4rem solid var(--clr4);
+    background: #eee;
+    border-radius: 10px;
+}
+
+.in-box:hover {
+    background: var(--clr4);
+    transition: .4s ease all;
+}
+
+.in-box img {
+    width: 20rem;
+    height: auto;
+}
+
+.in-box .far {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-left: -8rem;
+    color: var(--clr3);
+}
+
+.in-box .veg-icon {
+    margin-left: 20rem;
+    position: absolute;
+    width: 3rem;
+}
+
+.star,
+.price {
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--clr3);
+    text-transform: capitalize;
+}
+
+.fa-star {
+    color: var(--clr5);
+}
+
+.in-box .far {
+    width: 10rem;
+    height:auto;
+    font-size: 2rem;
+    color: var(--clr3);
+}
+
+.in-box .fa-plus-circle {
+    color: var(--clr4);
 }
 
 
