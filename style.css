@@ -60,7 +60,7 @@ html::-webkit-scrollbar-thumb
 
 .btn:hover {
     background-color: var(--clr3);
-    box-shadow: 0px .2rem 2rem rgba(255, 85, 94, 0.4);
+    box-shadow: 0px 2rem 2rem rgba(255, 85, 94, 0.4);
     color: #fff;
     transform: translateY(-1rem);
 }
@@ -240,10 +240,13 @@ section p
                 /*------------------------Sessão principal---------------------*/
 .home
 {
-    height:flex;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/Fundo.png);
     background-size: cover;
     background-position: center;
+    margin: auto;
+    padding: auto;
+   
 
 }
 
@@ -275,7 +278,63 @@ section p
     color: var(--clr4);
 }
 
+/*************************sobre****************************/
 
+.about-sec {
+    display: flex;
+    grid-template-columns: 1.2fr 1.2fr;
+}
+
+h4
+{
+    margin: auto;
+    text-align: center;
+}
+
+.img img {
+    width: 45rem;
+    height: auto;
+    text-align: center;
+    animation: icon 4s ease infinite;
+}
+
+.about-content h3 {
+    background: url(./assets/Fundo1.png);
+    background-size: cover;
+    background-position: center;
+    color: var(--clr4);
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-content p {
+    padding-bottom: 2rem;
+    color: var(--clr3);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-inner h5 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.about-inner h5:hover {
+    transition: 1s ease;
+    transform: translateX(2rem);
+}
+
+.about-inner .fas {
+    color: var(--clr4);
+    padding-right: 1rem;
+}
+
+.about-content .btn {
+    border: .1rem solid var(--clr4);
+}
 
 
 /******************** media ************************************/
