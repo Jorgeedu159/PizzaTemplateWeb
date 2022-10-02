@@ -18,6 +18,10 @@
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+   
+   
+
+    
 
 }
 
@@ -402,7 +406,7 @@ h4
     grid-template-columns: 1.2fr 1.2fr 1.2fr;
     grid-gap: 2rem;
     flex-wrap: nowrap;
-   
+    background-size: 100% auto;
 }
 
 .in-box {
@@ -445,6 +449,14 @@ h4
     text-transform: capitalize;
 }
 
+.in-content h2,
+.in-content p
+{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    font-size: 800;
+    text-transform: capitalize;
+}
 .fa-star {
     color: var(--clr5);
 }
@@ -459,6 +471,87 @@ h4
 .in-box .fa-plus-circle {
     color: var(--clr4);
 }
+
+/*****************************comentários**********************/
+
+.inner-blog 
+{
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-gap: 1rem;
+   
+}
+
+.blog-content 
+{
+    position: relative;
+    background: var(--clr2);
+   
+ 
+}
+
+.in {
+    
+    height: 25rem;
+    position: relative;
+   
+    
+}
+
+.in img 
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;   
+}
+
+.in-blog-icon {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background: var(--clr3);
+    border-radius: 50px;
+   
+   
+}
+
+.in-blog-icon a 
+{
+    font-size: 1.5rem;
+    color: var(--clr2);
+    text-transform: capitalize;
+    
+}
+    
+
+.in-blog-icon i 
+{
+    padding-right: .5rem;
+    color: var(--clr2);
+   
+}
+
+.in-blog-content 
+{
+    text-align: center;
+    padding: 4rem;
+    background: #eee;
+    border-radius: 50px;  
+  
+    
+}
+
+.in-blog-content h2,
+.in-blog-content p 
+{
+    color: var(--clr3);
+}
+
+
+    
+
 
 
 /******************** media ************************************/
