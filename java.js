@@ -16,3 +16,10 @@ window.onscroll = () => {
     menu.classList.remove('active');
     searchfrm.classList.remove('active');
 }
+
+window.onscroll = () =>
+{
+    menu.classList.remove('active');
+    searchfrm.classList.remove('active');
+    
+}
